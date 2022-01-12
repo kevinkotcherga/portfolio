@@ -1,0 +1,57 @@
+.content {
+  transform: translateX(-100px);
+  max-width: 700px;
+  box-shadow: var(--box-shadow2);
+  background: var(--background-content);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.25);
+  border-top: 1px solid rgba(255,255,255,0.5);
+  border-left: 1px solid rgba(255,255,255,0.5);
+  padding: 40px;
+  padding-left: 110px;
+  h2 {
+    font-size: 2.5rem;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+  a {
+    display: inline-block;
+    color: var(--color-nav);
+    padding: 15px 30px;
+    background: var(--background);
+    margin-top: 20px;
+    border-radius: 20px;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-decoration: none;
+    box-shadow: inset 2px 2px 6px #bababa,
+                inset -2px -2px 2px #ffffff;
+  }
+  a:hover {
+    box-shadow: inset 5px 5px 6px #bababa,
+                inset -2px -2px 2px #ffffff;
+  }
+}
+
+// ROBOT IMAGE HOME PAGE
+
+.imgBx img {
+  z-index: auto;
+  overflow: hidden;
+  max-width: 350px;
+  margin-right: 150px;
+  animation: anim 8s ease-in-out infinite;
+}
+
+@keyframes anim {
+  0%, 100%
+  {
+    transform: translateY(90px);
+  }
+  50%
+  {
+    transform: translateY(110px);
+  }
+}

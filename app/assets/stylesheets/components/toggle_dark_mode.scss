@@ -1,0 +1,62 @@
+.switch {
+  position: absolute;
+  display: inline-block;
+  width: 80px;
+  height: 40px;
+  cursor: pointer;
+  bottom: 20px;
+  right: 20px;
+}
+.switch input {
+  display: none;
+}
+.slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: var(--border);
+  border-radius: 16px;
+  box-shadow: var(--box-shadow-darkmode);
+}
+
+.slider:before {
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  z-index: 999;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  box-shadow: var(--box-shadow-btn-darkmode);
+  background-color: var(--background-color);
+  content: "";
+  transition: 0.5s;
+}
+.off {
+  position: absolute;
+  top: 11px;
+  right: 12px;
+  color: #3d3935;
+}
+.on {
+  position: absolute;
+  top: 11px;
+  left: 12px;
+  color: #000000;
+}
+
+.svg_on {
+  fill: var(--link);
+  width: 25px;
+}
+
+.svg_off {
+  fill: var(--link);
+  width: 25px;
+}
+
+input:checked + .slider:before {
+  transform: translateX(33px);
+}

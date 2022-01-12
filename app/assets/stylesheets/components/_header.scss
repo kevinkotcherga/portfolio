@@ -1,0 +1,35 @@
+.header {
+  position: absolute;
+  top: -40px;
+  right: 20px;
+  left: 20px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--background-container);
+  box-shadow: var(--box-shadow);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.25);
+  border-top: 1px solid rgba(255,255,255,0.5);
+  border-left: 1px solid rgba(255,255,255,0.5);
+  .header__titre-principale {
+    display: flex;
+    align-items: baseline;
+    h1 {
+      font-size: 1.6rem;
+      margin: 0 12px 0 0;
+      padding: 0;
+    }
+    span {
+      margin-right: 12px;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-right: 10px;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+<div class="container-card__portfolio">
+
+<%= link_to front_end_path, class: "link-to" do %>
+  <div class="card__portfolio_main">
+    <div class="content-card__portfolio">
+      <figure>
+        <%= image_tag ("other_03.png"), class: "img-portfolio_main" %>
+            <figcaption>Front End</figcaption>
+        </figure>
+    </div>
+  </div>
+<% end %>
+<%= link_to full_stack_path, class: "link-to" do %>
+  <div class="card__portfolio_main">
+    <div class="content-card__portfolio">
+        <figure>
+          <%= image_tag ("other_11.png"), class: "img-portfolio_main" %>
+            <figcaption>Full Stack</figcaption>
+        </figure>
+    </div>
+  </div>
+<% end %>
+
+</div>
+
+<!-- MOVING IMAGES -->
+
+<div class="imgDoodle5">
+  <%= image_tag ("object7.png") %>
+</div>
+
+<div class="imgDoodle6">
+  <%= image_tag ("object6.png") %>
+</div>
+
+<div class="imgDoodle7">
+  <%= image_tag ("object6.png") %>
+</div>
+
+<script type="text/javascript" src="vanilla-tilt.js"></script>
+<script>
+  VanillaTilt.init(document.querySelectorAll(".card__portfolio_main"),{
+  max: 15,
+  speed: 1000,
+  glare: false,
+  "max-glare": 1,
+  });
+</script>

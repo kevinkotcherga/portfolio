@@ -1,0 +1,389 @@
+// External libraries
+@import 'bootstrap/scss/bootstrap';
+
+// Graphical variables
+@import "config/fonts";
+@import "config/colors";
+
+// Your CSS partials
+@import "components/index";
+@import "components/mixins.scss";
+@import "pages/index";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Varela Round', sans-serif;
+}
+
+#bloc_page, .container {
+  position: relative;
+  max-width: 1350px;
+  margin: 0 auto;
+}
+
+body {
+  color: var(--link);
+  background: var(--background-body);
+  overflow: hidden;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+    // VARIABLES BODY
+
+  --link: #385A94;
+  --color-nav: #385A94;
+  --fill:#385A94;
+  --fill2:#E9E1F6;
+  --fill-nav-bar:#385A94;
+  --fill-darkmode: #385A94;
+  --background-body: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  --background:#fefefe;
+  --background-button:#fefefea6;
+  --background-color: #F7DAF3;
+  --background-card-profil: rgba(255, 255, 255, 0.267);
+  --background-container: rgba(255,255,255,0.4);
+  --background-content: none;
+  --box-shadow-darkmode: inset 3px 3px 5px #c3c3c3, inset -1px -1px 5px #fdfdfd;
+  --box-shadow-btn-darkmode: 3px 3px 4px #d7d7d7, -1px -1px 4px #e9e9e9;
+  --box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+  --box-shadow2: 0 15px 35px rgba(0,0,0,0.1);
+  --box-shadow3: 0 10px 10px rgba(0,0,0,0.1);
+  --border: 1px solid #F7DAF3;
+}
+
+.dark {
+
+    // VARIABLES DARK MODE
+
+  --background-body: linear-gradient(to top, #0B4473 0%, #0A263D 100%);
+  --link: #fefefe;
+  --color-nav: #091a2c;
+  --background: #fefefe;
+  --background-button: #fefefe;
+  --background-color:#0A2742;
+  --background-container: #091a2ca4;
+  --background-content: #091a2ca4;
+  --background-card: rgba(0, 0, 0, 0.4);
+  --box-shadow-darkmode: none;
+  --box-shadow-btn-darkmode: 0px 0px 3px #fefefe;
+  --box-shadow: none;
+  --box-shadow2: none;
+  --box-shadow3: none;
+  --fill:#fefefe;
+  --fill2:#061624;
+  --fill-nav-bar:#091a2c;
+  --fill-darkmode: #fefefe;
+  --border: 1px solid #fefefe;
+}
+
+section {
+  background: var(--background-body);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 50px;
+}
+
+.container {
+  position: relative;
+  width: calc(100% - 100px);
+  min-height: calc(100vh - 280px);
+  min-height: 300px;
+  max-height: 600px;
+  background: var(--background-container);
+  box-shadow: var(--box-shadow);
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  transition: 0.5s;
+}
+
+// MEDIA QUERIES
+
+// TABLET - SMARTPHONE
+
+@media (max-width: 1410px) {
+
+  section {
+    overflow: hidden;
+    padding: 50px 0px 0px;
+  }
+
+  body {
+    overflow: scroll;
+  }
+
+  // HOME PAGE :
+
+  .container-card {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 150px;
+    padding: 0;
+    flex-direction: column;
+  }
+
+  .container {
+    width: calc(100% - 10vw);
+    flex-direction: column;
+    padding: 20px;
+    max-height: 3000px;
+    margin: 0px 0 50px 0;
+    .content {
+      position: relative;
+      transform: translateX(0px);
+      max-width: 100%;
+      padding: 20px;
+      margin-bottom: 200px;
+      h2 {
+        margin-bottom: 10px;
+      }
+      a {
+        font-size: 1em;
+        padding: 10px 20px;
+      }
+    }
+  }
+
+  // HEADER
+
+  .header {
+    position: relative;
+    right: 0px;
+    left: 0px;
+  }
+
+  header {
+    flex-direction: column;
+    width: 100%;
+    top: -60px;
+    right: 0;
+    left: 0;
+
+    .nav__ul {
+      margin-left: 0px;
+    }
+
+  .header__titre-principale {
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 200px;
+    }
+    ul  {
+      margin-top: 10px;
+      flex-wrap: wrap;
+      justify-content: center;
+      li {
+        margin: 2px;
+        a {
+          display: inline-block;
+        }
+      }
+    }
+  }
+
+  .header .header__titre-principale span {
+    margin-right: 0px;
+}
+
+  .header .header__titre-principale p {
+  margin-right: 0px;
+}
+
+  // CONTAINERS
+
+  .container {
+    max-height: 3000px;
+  }
+
+  .content {
+    h2 {
+      font-size: 1.7em;
+    }
+    p {
+      font-size: 1.2em;
+    }
+  }
+
+  // MOVING IMAGE
+
+  .imgBx img{
+    margin: 30px 0 60px 0px;
+    max-width: 250px;
+    position: relative;
+    top: -240px;
+    overflow: visible;
+  }
+
+   // SIDE NAV BAR
+
+  .nav-bar {
+    flex-direction: row;
+    bottom: 70px;
+    left: 0;
+    right: 0;
+    a {
+      box-shadow: var(--box-shadow-darkmode);
+      background-color: var(--background-color);
+    }
+  .nav-bar__logos {
+    width: 70px;
+    fill: var(--fill-darkmode);
+ }
+}
+
+  .nav-bar li {
+    margin: 5px;
+  }
+
+  // TOGGLE DARK MODE
+
+  .switch {
+    right: auto;
+  }
+
+
+  // PAGE 2 - "A PROPOS" :
+
+  .container-card .card {
+    position: relative;
+    width: 240px;
+    height: 400px;
+    margin: 0px;
+    margin-bottom: 40px;
+  }
+
+  .container-card .card .content-card p, .container-card .card .content-card li {
+    font-size: 0.8rem;
+  }
+
+  .container-card .card .content-card h3, .container-card .card .content-card h4 {
+    font-size: 1rem;
+  }
+
+  // PAGE 3 - "COMPETENCES"
+
+  .container {
+    max-height: 3000px;
+  }
+  .section-competences {
+    justify-content: normal;
+    width: 100%;
+    overflow-x: scroll;
+    margin: 0 0 200px 0;
+    .section-competences__logos {
+      margin: 0 20px 0 20px;
+    }
+}
+
+  // PAGES 4 - "EXPERIENCES"
+
+  .container-card__experience {
+    padding: 0px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 200px;
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .container-card__experience .card__experience {
+    width: 100%;
+    height: 600px;
+  }
+
+  // PAGE 5 - "PORTFOLIO"
+
+  .container-card__portfolio {
+    flex-direction: column;
+    margin: 0 0 200px 0;
+  }
+
+  .container-card__contact {
+    padding: 0px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 200px;
+    width: 90%;
+    .card__contact {
+      position: relative;
+      height: 550px;
+    }
+  }
+
+  // PAGE 6 - "CONTACT"
+
+  .container-card__contact .card__contact .content-card__contact h4 {
+    margin: 20px 0 20px 0;
+  }
+
+  .container-card__contact .card__contact .content-card__contact {
+    padding: 10px;
+  }
+
+  // ALL MOVING IMAGES
+
+  .imgDoodle img {
+    top: 0px;
+    left: -220px;
+    }
+
+  .imgDoodle2 img {
+    top: 1000px;
+    right: -90px;
+    }
+
+  .imgDoodle3 img {
+    top: -600px;
+    left: 240px;
+    }
+
+  .imgDoodle4 img {
+    top: 350px;
+    right: -50px;
+    }
+
+  .imgDoodle5 img {
+    top: -600px;
+    right: 200px;
+  }
+
+  .imgDoodle6 img {
+    top: 400px;
+    right: -70px;
+  }
+
+  .imgDoodle7 img {
+    top: 550px;
+    right: -70px;
+  }
+
+  .imgDoodle8 img {
+    top: 420px;
+    left: -150px;
+  }
+
+  .imgDoodle9 img {
+    top: 1100px;
+    right: -100px;
+  }
+
+  .imgDoodle10 img {
+    top: -700px;
+    right: 250px;
+  }
+
+  .imgDoodle11 img {
+    top: -800px;
+    right: -500px;
+  }
+}

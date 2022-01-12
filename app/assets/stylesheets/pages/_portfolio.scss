@@ -1,0 +1,196 @@
+.container-card__portfolio {
+  margin: 300px;
+  padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  z-index: 1;
+  flex-wrap: wrap;
+
+  // ALL PROJECTS IN GLASSMORPHISM CARD
+
+  .card__portfolio {
+    position: relative;
+    width: 130px;
+    height: 150px;
+    margin: 30px;
+    box-shadow: var(--box-shadow2);
+    border-radius: 15px;
+    background: var(--background-card);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
+    .content-card__portfolio {
+      padding: 20px;
+      text-align: center;
+      h2 {
+        position: absolute;
+        top: -80px;
+        right: 30px;
+        font-size: 8rem;
+        color: rgba(255,255,255,0.3);
+        pointer-events: none;
+      }
+      h3 {
+        font-size: 1.1rem;
+        color: var(--link);
+        z-index: 1;
+        margin-bottom: 20px;
+      }
+      h4 {
+
+          font-size: 1.1rem;
+          color: var(--link);
+          z-index: 1;
+          margin: 60px 0 20px 0;
+        }
+      p, li {
+        font-size: 0.8rem;
+        color: var(--link);
+        font-weight: 300;
+      }
+      li {
+        list-style: none;
+      }
+      a {
+        color: var(--link);
+        text-decoration: none;
+      }
+    }
+  }
+
+  // MAIN CARDS
+
+  .card__portfolio_main {
+    position: relative;
+    width: 230px;
+    height: 250px;
+    margin: 76px;
+    box-shadow: var(--box-shadow2);
+    border-radius: 15px;
+    background: var(--background-card);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
+    .content-card__portfolio {
+      padding: 20px;
+      text-align: center;
+      h2 {
+        position: absolute;
+        top: -80px;
+        right: 30px;
+        font-size: 8rem;
+        color: rgba(255,255,255,0.3);
+        pointer-events: none;
+      }
+      h3 {
+        font-size: 1.1rem;
+        color: var(--link);
+        z-index: 1;
+        margin-bottom: 20px;
+      }
+      h4 {
+
+          font-size: 1.1rem;
+          color: var(--link);
+          z-index: 1;
+          margin: 60px 0 20px 0;
+        }
+      p, li {
+        font-size: 0.8rem;
+        color: var(--link);
+        font-weight: 300;
+      }
+      li {
+        list-style: none;
+      }
+      a {
+        color: var(--link);
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.img-portfolio_main {
+  display: inline-block;
+  width: 170px;
+}
+
+// GLASMORPHISM CARDS
+
+.img-portfolio {
+  border: 1px solid rgba(255,255,255,0.25);
+  border-top: 1px solid rgba(255,255,255,0.5);
+  border-left: 1px solid rgba(255,255,255,0.5);
+  display: inline-block;
+  width: 100px;
+}
+
+figcaption {
+  text-align: center;
+  color: var(--link);
+}
+
+.bloc-inner-spacer {
+  height: 300px;
+}
+
+.link-to {
+  text-decoration: none;
+}
+
+// MOVING IMAGES
+
+.imgDoodle5 img {
+  position: absolute;
+  top: 66px;
+  right: 1081px;
+  overflow: hidden;
+  max-width: 250px;
+  animation: anim 20s ease-in-out infinite;
+  }
+
+.imgDoodle5{
+  transform: rotate(15deg)
+  }
+
+.imgDoodle6 img {
+  position: absolute;
+  top: 207px;
+  right: 16px;
+  overflow: hidden;
+  max-width: 100px;
+  animation: anim4 19s ease-in-out infinite;
+  }
+
+.imgDoodle7 img {
+  position: absolute;
+  top: 64px;
+  right: 56px;
+  overflow: hidden;
+  max-width: 150px;
+  animation: anim2 20s ease-in-out infinite;
+  }
+
+@keyframes anim4 {
+  0%, 100% {
+  transform: translateY(110px);
+  }
+  50% {
+  transform: translateY(70px);
+  }
+}

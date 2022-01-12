@@ -1,0 +1,18 @@
+<header class="header">
+  <div class="header__titre-principale">
+    <div class="header__titre-principale-nom">
+      <h1>Kevin Kotcherga</h1>
+    </div>
+    <p class="header__titre-principale-desciption"><span>Développeur Full Stack</span></p>
+  </div>
+
+  <nav class="nav">
+    <ul class="nav__ul">
+      <li class="<%= "active" if controller.controller_name == "pages" && controller.action_name == "home" %>"><%= link_to "Accueil", root_path %></li>
+      <li class="<%= "active" if controller.controller_name == "pages" && controller.action_name == "profile" %>"><%= link_to "Profile", pages_profile_path %></li>
+      <li class="<%= "active" if controller.controller_name == "pages" && controller.action_name == "competences" %>"><%= link_to "Compétences", pages_competences_path %></li>
+      <li class="<%= "active" if controller.controller_name == "pages" && controller.action_name == "portfolio" || (controller.controller_name == "projects" && controller.action_name == "front_end") || (controller.controller_name == "projects" && controller.action_name == "full_stack") %>"><%= link_to "Portfolio", pages_portfolio_path %></li>
+      <li class="<%= "active" if controller.controller_name == "pages" && controller.action_name == "contact" %>"><%= link_to "Contact", pages_contact_path %></li>
+    </ul>
+  </nav>
+</header>
