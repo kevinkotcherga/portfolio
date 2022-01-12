@@ -1,0 +1,120 @@
+<div class="container-card__portfolio">
+
+<%= link_to 'https://kevinkotcherga.github.io/clothing_site/', class: "link-to" do %>
+  <div class="card__portfolio">
+    <div class="content-card__portfolio">
+        <figure>
+          <%= image_tag ("project9-mode.jpg"), class: "img-portfolio" %>
+            <figcaption>Site mode</figcaption>
+        </figure>
+    </div>
+  </div>
+<% end %>
+
+<%= link_to 'https://kevinkotcherga.github.io/zoom/', class: "link-to" do %>
+  <div class="card__portfolio">
+    <div class="content-card__portfolio">
+        <figure>
+        <%= image_tag ("project8-zoom.jpg"), class: "img-portfolio" %>
+            <figcaption>Zoom</figcaption>
+        </figure>
+    </div>
+  </div>
+<% end %>
+
+<%= link_to 'https://kevinkotcherga.github.io/quiz/', class: "link-to" do %>
+  <div class="card__portfolio">
+    <div class="content-card__portfolio">
+        <figure>
+          <%= image_tag ("project7-quiz.jpg"), class: "img-portfolio" %>
+            <figcaption>Quiz</figcaption>
+        </figure>
+    </div>
+  </div>
+<% end %>
+
+<%= link_to 'https://kevinkotcherga.github.io/pop-up/', class: "link-to" do %>
+  <div class="card__portfolio">
+    <div class="content-card__portfolio">
+        <figure>
+          <%= image_tag ("project2-popup.jpg"), class: "img-portfolio" %>
+            <figcaption>Pop-up</figcaption>
+        </figure>
+    </div>
+  </div>
+<% end %>
+
+<%= link_to 'https://kevinkotcherga.github.io/notification/', class: "link-to" do %>
+  <div class="card__portfolio">
+    <div class="content-card__portfolio">
+        <figure>
+          <%= image_tag ("project4-notification.jpg"), class: "img-portfolio" %>
+            <figcaption>Notifications</figcaption>
+        </figure>
+    </div>
+  </div>
+<% end %>
+
+<%= link_to 'https://kevinkotcherga.github.io/auto_text/', class: "link-to" do %>
+  <div class="card__portfolio">
+    <div class="content-card__portfolio">
+      <figure>
+        <%= image_tag ("project1-auto-text.jpg"), class: "img-portfolio" %>
+            <figcaption>Auto text</figcaption>
+      </figure>
+    </div>
+  </div>
+<% end %>
+
+
+<%= link_to 'https://kevinkotcherga.github.io/hamburger_menu/', class: "link-to" do %>
+  <div class="card__portfolio">
+    <div class="content-card__portfolio">
+        <figure>
+          <%= image_tag ("project3-btnmenu.jpg"), class: "img-portfolio" %>
+            <figcaption>Menu latéral</figcaption>
+        </figure>
+    </div>
+  </div>
+<% end %>
+
+
+<%= link_to 'https://kevinkotcherga.github.io/dark_mode/', class: "link-to" do %>
+  <div class="card__portfolio">
+    <div class="content-card__portfolio">
+        <figure>
+          <%= image_tag ("project5-darkmode.jpg"), class: "img-portfolio" %>
+            <figcaption>Dark mode</figcaption>
+        </figure>
+    </div>
+  </div>
+<% end %>
+
+
+
+
+</div>
+
+<!-- MOVING IMAGES -->
+
+<div class="imgDoodle5">
+  <%= image_tag ("object7.png") %>
+</div>
+
+<div class="imgDoodle6">
+  <%= image_tag ("object6.png") %>
+</div>
+
+<div class="imgDoodle7">
+  <%= image_tag ("object6.png") %>
+</div>
+
+<script type="text/javascript" src="vanilla-tilt.js"></script>
+<script>
+  VanillaTilt.init(document.querySelectorAll(".card__portfolio"),{
+  max: 15,
+  speed: 1000,
+  glare: false,
+  "max-glare": 1,
+  });
+</script>
