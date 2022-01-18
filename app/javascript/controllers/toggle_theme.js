@@ -29,4 +29,4 @@ const toggleTheme = () => {
   })
 }
 
-export {toggleTheme};
+export { toggleTheme }
