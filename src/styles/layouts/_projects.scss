@@ -324,7 +324,7 @@
 @media (max-width: 992px) {
   .projects {
     &__title {
-      font-size: 37px;
+      font-size: 89px;
     }
 
     &__background {
@@ -336,6 +336,15 @@
     &__tile {
       min-height: 50vmax;
       width: 80%;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .projects {
+    &__title {
+      font-size: 37px;
+      padding: 0 30px;
     }
   }
 }
