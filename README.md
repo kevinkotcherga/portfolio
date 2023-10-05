@@ -17,4 +17,3 @@ npm i
 ```
 
 Please note that everytime you install a new NPM package, you should rerun you docker compose command.
-# portfolio
