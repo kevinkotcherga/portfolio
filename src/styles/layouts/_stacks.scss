@@ -330,6 +330,7 @@
 @media (max-width: 992px) {
   .stacks {
     height: 115vh !important;
+    overflow: hidden;
 
     &__content {
       max-width: 768px;
@@ -401,7 +402,7 @@
       &-content {
         width: 12vw;
         height: 12vw;
-        border-radius: 1vw;
+        border-radius: 3vw;
 
         img {
           max-height: 5vw;
@@ -442,6 +443,15 @@
   .stacks {
     height: 100vh;
 
+    &__gradient-header {
+      background-color: transparent;
+    }
+
+    &__gradient-header--1 {
+      left: 5vw;
+      top: 0;
+    }
+
     &__title {
       padding-left: 28px;
       font-size: 37px;
@@ -449,10 +459,10 @@
 
       &-gradient {
         bottom: 30%;
-        left: -5%;
+        left: 5%;
         position: absolute;
         z-index: -1;
-        width: 300px;
+        width: 100px;
         height: 40px;
         border-radius: 50%;
         background-color: #2d345fbb;
@@ -526,7 +536,7 @@
       &-content {
         width: 12vw;
         height: 12vw;
-        border-radius: 1vw;
+        border-radius: 3vw;
 
         img {
           max-height: 5vw;

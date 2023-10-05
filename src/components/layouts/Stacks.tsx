@@ -48,7 +48,6 @@ const Stacks = () => {
 			{/* <img src={gradientBottom} className="stacks__background" alt="" /> */}
 			<div className="stacks__container"></div>
 			<div className="stacks__content">
-
 				<h2 className="stacks__title">
 					{t('stacksTitle')}
 					<br />
