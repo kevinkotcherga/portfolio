@@ -52,7 +52,8 @@
   &__arrow {
     position: absolute;
     bottom: 12%;
-    width: 150px;
+    width: 65px;
+    height: auto;
   }
 
   &__wrapper {
@@ -312,22 +313,20 @@
     &__wrapper {
       &--emoji-right {
         position: absolute;
-        // width: 13vw;
-        // height: 13vw;
+        width: 50px;
+        height: 50px;
         top: -12vw;
-        right: 2vw;
+        right: 15vw;
         z-index: 1;
         margin: auto;
       }
 
       &--emoji-left {
         position: absolute;
-        // width: 13vw;
-        // height: 13vw;
-        left: 50px;
-        top: 200px;
-        // bottom: -26vw;
-        // left: 2vw;
+        width: 50px;
+        height: 50px;
+        left: 12vw;
+        top: 25vw;
         z-index: 1;
         margin: auto;
       }

@@ -69,7 +69,7 @@ export const gsapProjects = () => {
 			scrollTrigger: {
 				trigger: '.projects',
 				start: 'top -7%',
-				end: 'bottom',
+				end: 'bottom -300%',
 				endTrigger: 'bottom',
 				scrub: 0.4,
 				pin: '.projects',

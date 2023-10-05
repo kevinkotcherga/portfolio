@@ -16,25 +16,25 @@ export const gsapHeader = () => {
     opacity: 0,
     stagger: 0.02,
     delay: 0,
-    duration: 0.6,
+    duration: 1.2,
   });
 
 	gsap.from(charsHeadline, {
 		yPercent: 130,
 		ease: 'ease',
 		opacity: 0,
-    stagger: 0.02,
-    duration: 0.7,
-    delay: 0.2,
+    stagger: 0.04,
+    duration: 1.2,
+    delay: 0.3,
 	});
 
 	gsap.from(charsSubhead, {
 		yPercent: 100,
 		ease: 'ease',
 		opacity: 0,
-    stagger: 0.02,
-    duration: 0.7,
-		delay: 0.4,
+    stagger: 0.04,
+    duration: 1.2,
+		delay: 0.6,
 	});
 
 	gsap.fromTo(
@@ -46,38 +46,35 @@ export const gsapHeader = () => {
 			opacity: 1,
 			y: 0,
 		  ease: 'ease',
-		  delay: 0.7,
-      duration: 0.7,
+		  delay: 1.3,
+      duration: 1.2,
 		},
 	);
 
 	gsap.fromTo(
 		'.header__emoji--right',
 		{
-			y: 115,
-			opacity: 0,
+			y: 120,
 		},
 		{
-      opacity: 1,
+
 			y: 0,
 		  ease: 'ease',
-		  delay: 0.6,
-      duration: 1,
+		  delay: 1,
+      duration: 1.2,
 		},
 	);
 
 	gsap.fromTo(
 		'.header__emoji--left',
 		{
-			y: 115,
-			opacity: 0,
+			y: 120,
 		},
 		{
-      opacity: 1,
 			y: 0,
 		  ease: 'ease',
-		  delay: 0.7,
-      duration: 1,
+		  delay: 1.2,
+      duration: 1.2,
 		},
 	);
 

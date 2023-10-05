@@ -175,13 +175,14 @@
   }
 
   &__hover-me {
-    background-color: #fff;
+    background-color: #70eeba;
     color: #000000;
-    font-weight: 600;
+    text-transform: uppercase;
     letter-spacing: -0.8px;
-    padding: 5px;
+    font-weight: 600;
+    padding: 3px;
     font-size: 12px;
-    width: 80px;
+    width: 100px;
     border-radius: 7px;
     position: absolute;
     top: -55%;
@@ -195,7 +196,7 @@
       content: '';
       width: 10px;
       height: 10px;
-      background-color: #fff;
+      background-color: #70eeba;
     }
   }
 
