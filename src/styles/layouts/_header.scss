@@ -96,17 +96,6 @@
     z-index: 1;
     color: #fff;
     position: relative;
-
-    &-gradient {
-      bottom: 20%;
-      left: 50%;
-      position: absolute;
-      width: 500px;
-      height: 89px;
-      border-radius: 50%;
-      // background-color: #2d345fbb;
-      filter: blur(16px);
-    }
   }
 
   &__subhead {
@@ -223,17 +212,6 @@
   .header {
     &__headline {
       font-size: 67px;
-
-      &-gradient {
-        bottom: 20%;
-        left: 50%;
-        position: absolute;
-        width: 300px;
-        height: 67px;
-        border-radius: 50%;
-        background-color: #2d345fbb;
-        filter: blur(16px);
-      }
     }
 
     &__badge {
@@ -282,17 +260,6 @@
   .header {
     &__headline {
       font-size: 37px;
-
-      &-gradient {
-        bottom: 30%;
-        left: 50%;
-        position: absolute;
-        width: 150px;
-        height: 37px;
-        border-radius: 50%;
-        background-color: #2d345fbb;
-        filter: blur(12px);
-      }
     }
 
     &__badge {

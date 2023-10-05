@@ -613,19 +613,10 @@
         background-color: #1B1622;
 
         h3 {
-          z-index: 1;
-          position: relative;
-          color: #000;
           font-size: 21px;
-          text-align: left;
-          margin: 0;
-          margin-bottom: 40px;
 
           span {
-            background: linear-gradient(90deg, #14f195, #80ecff 40.1%, #64a8f2 82.29%, #64a8f2);
-            color: #000;
-            padding: 5px 30px;
-            border-radius: 9999px;
+            padding: 5px 15px;
           }
         }
       }
