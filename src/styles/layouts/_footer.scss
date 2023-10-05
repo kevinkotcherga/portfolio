@@ -202,6 +202,18 @@
   }
 }
 
+@media (max-width: 1200px) {
+  .footer {
+    &__legend {
+      max-width: 992px;
+    }
+
+    &__content {
+      max-width: 992px;
+    }
+  }
+}
+
 @media (max-width: 992px) {
   .footer {
 
@@ -218,6 +230,12 @@
       max-width: 768px;
       display: block;
       margin-top: 21px;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+
 
       &-logo {
         display: flex;
@@ -316,7 +334,7 @@
     }
 
     &__button {
-      padding: 12px 9px;
+      padding: 12px 28px;
       border-radius: 99px;
       outline: 0;
       border: 0.01px solid #ffffff;

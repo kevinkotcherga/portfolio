@@ -41,7 +41,7 @@ const Navbar = () => {
 			<nav className={`navbar ${isActive ? 'active' : ''}`}>
 				<div className={`navbar__container ${isActive ? 'active' : ''}`}>
 					<a
-						className="navbar__link navbar__link--name"
+						className="navbar__link navbar__link--name navbar__name-top"
 						href="https://kevinkotcherga.fr/"
 						onClick={handleLinkClick}
 					>
