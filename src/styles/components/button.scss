@@ -1,0 +1,46 @@
+.button {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  text-decoration: none;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+
+    &::after {
+      content: '';
+      height: 0px;
+      transition: height 0.1s ease-out;
+      transition-delay: 0.1s;
+    }
+
+    &:hover:after {
+      content: '';
+      height: 8px;
+      transition: 0.3s ease;
+    }
+
+    &:hover .button__text {
+      background-color: #ffffff;
+    }
+  }
+
+  &__text {
+    background-color: #19FB9B;
+    padding: 9px 16px;
+    border-radius: 99px;
+    cursor: pointer;
+    color: #000;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+}
+
+@media (max-width: 768px) {
+  .button {
+    &__text {
+      padding: 5px 12px;
+    }
+  }
+}

@@ -1,0 +1,341 @@
+.projects {
+  margin-top: -1vh;
+  height: 110vh +7vh;
+  background-color: #000000;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+
+  &__background {
+    overflow: hidden;
+    position: absolute;
+    bottom: 0 + -10px;
+    background-color: #000000;
+    border-radius: 60px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    border-top: solid 1px #433164;
+    // border-bottom: solid 1px rgb(173 94 255/1);
+
+    // &:before {
+    //   content: ' ';
+    //   display: block;
+    //   position: absolute;
+    //   right: 0;
+    //   bottom: 0;
+    //   width: 100%;
+    //   height: 40%;
+    //   opacity: 1;
+    //   background-image: url("../../images/gradients/gradient-bottom.png");
+    //   background-repeat: no-repeat;
+    //   background-position: 100% 0;
+    //   background-size: contain;
+    // }
+
+    // &:after {
+    //   content: ' ';
+    //   display: block;
+    //   position: absolute;
+    //   left: 0;
+    //   top: 0;
+    //   width: 50%;
+    //   height: 50%;
+    //   opacity: 1;
+    //   background-image: url("../../images/gradients/gradient-top.png");
+    //   background-repeat: no-repeat;
+    //   background-size: contain;
+    // }
+  }
+
+  &__container {
+    background-color: transparent;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    position: relative;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__gradient {
+    width: 600px;
+    height: 150px;
+    transform: rotate(20deg);
+    border-radius: 50%;
+    background-color: #271d3b;
+    filter: blur(100px);
+    bottom: 30%;
+    left: 10%;
+    position: absolute;
+  }
+
+  &__img {
+    overflow: hidden;
+    position: absolute;
+    bottom: -10%;
+    right: -5%;
+    height: 350px;
+    width: 350px;
+    border-radius: 1vmax;
+    background-size: cover;
+    transform: rotate(-25deg);
+
+    &--assisto {
+      background-image: url("../../images/projects/assisto.jpg");
+    }
+
+    &--governement {
+      background-image: url("../../images/projects/governement.jpg");
+    }
+
+    &--floabank {
+      background-image: url("../../images/projects/floa-bank.jpg");
+    }
+
+    &--floapay {
+      background-image: url("../../images/projects/floa-pay.jpg");
+    }
+
+    &--devinnet {
+      background-image: url("../../images/projects/devinnet.jpg");
+    }
+
+    &--shop {
+      background-image: url("../../images/projects/shop.jpg");
+    }
+
+    &--epikeco {
+      background-image: url("../../images/projects/epik-eco.jpg");
+    }
+
+    &--react-native {
+      background-image: url("../../images/projects/react-native-app.jpg");
+    }
+  }
+
+  &__title {
+    position: absolute;
+    color: #000000;
+    background: rgb(153 69 255);
+    width: fit-content;
+    text-align: center;
+    margin: 0;
+    border-radius: 9999px;
+    padding: 0 40px;
+    font-size: 119px;
+    margin-top: 159px;
+    font-weight: 700;
+    z-index: 2;
+  }
+
+  &__grid {
+    width: 100%;
+    max-width: 992px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: calc(150%);
+    left: 0;
+    right: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 89px;
+    z-index: 2;
+  }
+
+  &__tile {
+    min-height: 550px;
+    border-radius: 30px;
+    padding: 37px;
+    background-color: #1B1622;
+    border-top: 2px solid transparent;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    border-bottom: 2px solid rgb(173 94 255);
+    text-align: left;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    // border-left: 2px solid transparent;
+    text-decoration: none;
+
+    &:hover {
+      transform: scale(.96);
+      border: 2px solid rgb(173 94 255);
+    }
+
+    &:hover .projects__external-link {
+      opacity: 1;
+    }
+  }
+
+  &__external-link {
+    opacity: 0;
+    position: absolute;
+    background-color: rgb(66, 66, 66);
+    border-radius: 9px;
+    z-index: 99;
+    bottom: 30%;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+
+    img {
+      padding: 12px;
+      width: 21px;
+      height: 21px;
+    }
+  }
+
+  &__logo {
+    margin-bottom: 21px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+
+    img {
+      max-width: 159px;
+      max-height: 50px;
+      filter: brightness(0) invert(1);
+    }
+
+    p {
+      color: var(--color-white);
+      font-size: 28px;
+      font-weight: 600;
+      text-transform: capitalize
+    }
+  }
+
+  &__description {
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 16px;
+    color: var(--color-white);
+  }
+
+  &__tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    color: #000000;
+
+    div {
+      font-size: 12px;
+      line-height: 16px;
+      padding: 5px 9px;
+      border-radius: 99px;
+      background: rgb(173 94 255);
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .projects {
+
+    &__title {
+      font-size: 89px;
+    }
+
+    &__background {
+      border-radius: 6vw;
+    }
+
+    &__container {
+      width: 100%;
+    }
+
+    &__grid {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 4vmax;
+      z-index: 2;
+    }
+
+    &__tile {
+      min-height: 45vmax;
+      width: 40vmax;
+      border-radius: 2vmax;
+      padding: 3vmax;
+    }
+
+    &__logo {
+      img {
+        max-width: 15vmax;
+      }
+    }
+
+    &__title {
+      margin-top: 10vmax;
+    }
+
+    &__description {
+      font-size: 2vmax;
+      line-height: 2vmax;
+      margin-bottom: 2vmax;
+    }
+
+    &__tags {
+      display: flex;
+      gap: 0.8vmax;
+
+      div {
+        font-size: 1.4vmax;
+        padding: 0.5vmax 0.7vmax;
+        border-radius: 0.5vmax;
+        background-color: #68f7aa;
+      }
+    }
+
+    &__img {
+      overflow: hidden;
+      position: absolute;
+      bottom: -10%;
+      right: -5%;
+      height: 30vmax;
+      width: 30vmax;
+      border-radius: 1vmax;
+      background-size: cover;
+      transform: rotate(-25deg);
+
+      &--assisto {
+        background-image: url("../../images/projects/assisto.jpg");
+      }
+
+      &--floa-bank {
+        background-image: url("../../images/projects/floa-bank.jpg");
+      }
+
+      &--devinnet {
+        background-image: url("../../images/projects/devinnet.jpg");
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .projects {
+    &__title {
+      font-size: 37px;
+    }
+
+    &__background {
+      &:before {
+        background-position: 100% 100%;
+      }
+    }
+
+    &__tile {
+      min-height: 50vmax;
+      width: 80%;
+    }
+  }
+}

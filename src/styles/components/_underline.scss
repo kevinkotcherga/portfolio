@@ -1,0 +1,57 @@
+.underline {
+  position: relative;
+
+  &__container {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+
+    &--skills {
+      max-width: 260px;
+      height: 37px;
+      margin-left: 37px;
+      bottom: 9px;
+      border-radius: 5px;
+      background: transparent;
+    }
+  }
+
+  &__word {
+    position: relative;
+    z-index: 2;
+
+    &--shadow {
+      text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .underline__container {
+    &--banner {
+      margin-left: 11vw;
+      max-width: 33vw;
+      height: 5vw;
+    }
+
+    &--skills {
+      max-width: 119px;
+      height: 21px;
+      margin-left: 28px;
+      bottom: 9px;
+      border-radius: 5px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .underline__container--banner {
+    max-width: 37vw;
+    height: 6vw;
+  }
+
+  .underline__container--skills {
+    max-width: 89px;
+    height: 16px;
+  }
+}

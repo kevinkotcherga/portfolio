@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'Neue-Montreal';
+  src: url('../fonts/Neue-Montreal/NeueMontreal-Regular.ttf') format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Neue-Montreal', sans-serif;
+  background-color: var(--color-white);
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  color: #1d1d1f;
+  background-color: #000;
+}
+
+.body-hidden {
+  overflow: hidden;
+}
+
+p {
+  margin: 0;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+//layouts
+@import './layouts/header';
+@import './layouts/stacks';
+@import './layouts/projects';
+@import './layouts/footer';
+
+//components
+@import './components/underline';
+@import './components/navbar';
+@import './components/tilt';
+@import './components/magnetic-button';
+@import './components/cursor-gradient';
+@import './components/button.scss';
+
+//contents
+@import './variables';
