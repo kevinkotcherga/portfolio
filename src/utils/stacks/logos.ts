@@ -1,10 +1,10 @@
 // front
-import Sass from '../../images/stacks/front/sass.svg';
+import ReactRouter from '../../images/stacks/front/react-router.svg';
+import Jest from '../../images/stacks/front/jest.svg';
 import Gsap from '../../images/stacks/front/gsap.svg';
 import Redux from '../../images/stacks/front/redux.svg';
 import ReactJs from '../../images/stacks/front/react.svg';
 import GraphQl from '../../images/stacks/front/graphql.svg';
-import Webflow from '../../images/stacks/front/webflow.svg';
 import RestApi from '../../images/stacks/front/rest-api.svg';
 // back
 import Sql from '../../images/stacks/back/sql.svg';
@@ -15,22 +15,23 @@ import ApolloServer from '../../images/stacks/back/apollo-server.svg';
 // design
 import Figma from '../../images/stacks/design/figma.svg';
 import AntDesign from '../../images/stacks/design/ant-design.svg';
-import MaterialDesign from '../../images/stacks/design/material-design.svg';
+import Sass from '../../images/stacks/design/sass.svg';
+import StyledComponent from '../../images/stacks/design/styled-components.svg';
 
 export const frontEndLogos = [
   {
     magnetic: [
-      { name: 'Sass', class: 'sass', image: Sass },
+      { name: 'Jest', class: 'jest', image: Jest },
       { name: 'Redux', class: 'redux', image: Redux },
-      { name: 'Webflow', class: 'webflow', image: Webflow },
+      { name: 'Context', class: 'context', image: ReactJs },
       { name: 'Rest Api', class: 'restapi', image: RestApi },
     ],
   },
   {
     tilt: [
       { name: 'React & Native', class: 'reactjs', image: ReactJs },
-      { name: 'Gsap', class: 'gsap', image: Gsap },
       { name: 'GraphQl', class: 'graphql', image: GraphQl },
+			{ name: 'React Router', class: 'react-router', image: ReactRouter },
     ],
   },
 ];
@@ -53,13 +54,16 @@ export const backEndLogos = [
 
 export const designLogos = [
 		{
-			magnetic: [],
+			magnetic: [
+				{ name: 'Sass', class: 'sass', image: Sass },
+      	{ name: 'Gsap', class: 'gsap', image: Gsap },
+			],
 		},
 		{
 			tilt: [
 				{ name: 'Figma', class: 'figma', image: Figma },
 				{ name: 'Ant Design', class: 'antdesign', image: AntDesign },
-				{ name: 'Material Design', class: 'materialdesign', image: MaterialDesign },
+				{ name: 'Styled components', class: 'styled-components', image: StyledComponent },
 			],
 		},
 	];

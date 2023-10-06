@@ -36,7 +36,7 @@
     right: 10%;
   }
 
-  &--sass {
+  &--jest {
     bottom: 55%;
     right: 35%;
   }
@@ -51,7 +51,7 @@
     bottom: 25%;
   }
 
-  &--webflow {
+  &--context {
     bottom: 40%;
     left: 30%;
   }
@@ -75,14 +75,24 @@
     right: 15%;
     bottom: 35%;
   }
+
+  &--sass {
+    right: 15%;
+    top: 10%;
+  }
+
+  &--gsap {
+    left: 10%;
+    top: 0%;
+  }
 }
 
 @media (max-width: 992px) {
   .magnetic {
 
-    &--webflow {
-      bottom: 20%;
-      left: 0%;
+    &--jest {
+      top: 32%;
+      left: 45%;
     }
 
     &--restapi {
@@ -91,23 +101,33 @@
     }
 
     &--redux {
-      top: 55%;
-      right: 15%;
+      top: 45%;
+      right: 20%;
     }
 
-    &--sass {
-      bottom: 55%;
-      right: 45%;
+    &--context {
+      bottom: 40%;
+      left: 50%;
     }
 
     &--firebase {
-      right: 85%;
+      right: 80%;
       top: 20%;
     }
 
     &--apolloserver {
-      right: 25%;
+      right: 30%;
       bottom: 45%;
+    }
+
+    &--gsap {
+      left: 10%;
+      top: 70%;
+    }
+
+    &--sass {
+      left: 30%;
+      top: 55%;
     }
   }
 }

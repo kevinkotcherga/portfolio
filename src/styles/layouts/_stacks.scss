@@ -230,7 +230,7 @@
       top: 0%;
     }
 
-    &--gsap {
+    &--react-router {
       right: 30%;
       bottom: 15%;
     }
@@ -256,13 +256,13 @@
     }
 
     &--figma {
-      top: 35%;
+      top: 40%;
       right: 25%;
     }
 
-    &--materialdesign {
-      top: 20%;
-      left: 0%;
+    &--styled-components {
+      top: 25%;
+      left: 10%;
     }
 
     &--antdesign {
@@ -360,9 +360,9 @@
         top: 5%;
       }
 
-      &--gsap {
-        right: 20%;
-        bottom: 0%;
+      &--react-router {
+        left: 10%;
+        bottom: 10%;
       }
 
       &--graphql {
@@ -381,7 +381,7 @@
       }
 
       &--sql {
-        bottom: 0%;
+        bottom: 10%;
         right: 20%;
       }
 
@@ -390,8 +390,8 @@
         right: 15%;
       }
 
-      &--materialdesign {
-        top: 40%;
+      &--styled-components {
+        top: 25%;
         left: 0%;
       }
 
@@ -512,11 +512,6 @@
       &--nodejs {
         top: 10%;
         right: 15%;
-      }
-
-      &--sql {
-        bottom: 0%;
-        right: 20%;
       }
 
       &--figma {

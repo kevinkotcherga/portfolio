@@ -130,6 +130,10 @@
 @media (max-width: 992px) {
   .navbar {
     max-width: 768px;
+
+    &__name--footer {
+      margin-right: 0;
+    }
   }
 
   .navbar__name-top {
