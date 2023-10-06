@@ -62,7 +62,7 @@ export const tiles = [
     "description": "projectFootStats",
     "tags": ["react native", "navigation", "filter"],
     "image": footStats,
-    "link": "http://www.assistopro.fr/"
+    "link": "https://github.com/kevinkotcherga/footstats"
   },
     {
     "id": 8,
