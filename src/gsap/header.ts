@@ -46,8 +46,8 @@ export const gsapHeader = () => {
 			opacity: 1,
 			y: 0,
 		  ease: 'ease',
-		  delay: 1.3,
-      duration: 1.2,
+		  delay: 0.8,
+      duration: 0.8,
 		},
 	);
 
@@ -61,7 +61,7 @@ export const gsapHeader = () => {
 			y: 0,
 		  ease: 'ease',
 		  delay: 1,
-      duration: 1.2,
+      duration: 1,
 		},
 	);
 
@@ -74,7 +74,7 @@ export const gsapHeader = () => {
 			y: 0,
 		  ease: 'ease',
 		  delay: 1.2,
-      duration: 1.2,
+      duration: 0.8,
 		},
 	);
 
