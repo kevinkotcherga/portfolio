@@ -73,7 +73,7 @@ const Navbar = () => {
 					>
 						<div className="button__content">
 							<div className="button__text">
-								{isEnglish ? 'Français' : 'Anglais'}
+								{isEnglish ? 'Français' : 'English'}
 							</div>
 						</div>
 					</div>
