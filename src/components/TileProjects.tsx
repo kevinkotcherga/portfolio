@@ -19,7 +19,7 @@ const TileProjects = ({ tile }: { tile: IProjectsTile }) => {
 			<p className="projects__description">{t(tile.description)}</p>
 			<div className={`projects__tags projects__tags--${tile.name}`}>
 				{tile.tags.map(tag => (
-					<div>#{tag}</div>
+					<div className={`${tag}`}>#{tag === 'online' ? t('online') : tag === 'offline' ? t('offline') : tag}</div>
 				))}
 			</div>
 			<div className={`projects__img projects__img--${tile.name}`}></div>

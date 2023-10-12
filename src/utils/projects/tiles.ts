@@ -1,4 +1,5 @@
-import assisto from '../../images/projects/company-logos/assisto.png';
+// import assisto from '../../images/projects/company-logos/assisto.png';
+import atoukids from '../../images/projects/company-logos/atoukids.svg';
 import governement from '../../images/projects/company-logos/governement.png';
 import devinnet from '../../images/projects/company-logos/devinnet.png';
 import floaBank from '../../images/projects/company-logos/floa-bank.png';
@@ -12,7 +13,7 @@ export const tiles = [
       "id": 1,
       "name": "floabank",
       "description": "projectFloaBank",
-      "tags": ["joomla", "css", "html"],
+      "tags": ["joomla", "css", "html", "online"],
       "image": floaBank,
       "link": "https://www.floabank.fr/"
     },
@@ -20,7 +21,7 @@ export const tiles = [
     "id": 2,
     "name": "floapay",
     "description": "projectFloaPay",
-    "tags": ["joomla", "css", "html"],
+    "tags": ["joomla", "css", "html", "online"],
     "image": floaPay,
     "link": "https://www.floapay.fr/"
   },
@@ -28,7 +29,7 @@ export const tiles = [
     "id": 3,
     "name": "governement",
     "description": "projectGovernement",
-    "tags": ["html", "css", "design system"],
+    "tags": ["html", "css", "design system", "online"],
     "image": governement,
     "link": "https://www.systeme-de-design.gouv.fr/"
   },
@@ -36,7 +37,7 @@ export const tiles = [
     "id": 4,
     "name": "devinnet",
     "description": "projectDevinnet",
-    "tags": ["webflow", "gsap", "figma"],
+    "tags": ["webflow", "gsap", "figma", "online"],
     "image": devinnet,
     "link": "http://devinnet.fr/"
   },
@@ -44,7 +45,7 @@ export const tiles = [
     "id": 5,
     "name": "shop",
     "description": "projectShop",
-    "tags": ["react", "node.js", "mongodb", "stripe"],
+    "tags": ["react", "node.js", "mongodb", "stripe", "online"],
     "image": shop,
     "link": "https://ecommerce-react-node-kotcherga.herokuapp.com/"
   },
@@ -52,7 +53,7 @@ export const tiles = [
     "id": 6,
     "name": "epikeco",
     "description": "projectEpikEco",
-    "tags": ["react", "typescript", "graphql", "react native", "react context"],
+    "tags": ["react", "typescript", "graphql", "react native", "react context", "offline"],
     "image": epikeco,
     "link": "https://github.com/WildCodeSchool/2209-wns-hopper-keops-front"
   },
@@ -60,16 +61,24 @@ export const tiles = [
     "id": 7,
     "name": "react-native",
     "description": "projectFootStats",
-    "tags": ["react native", "navigation", "filter"],
+    "tags": ["react native", "navigation", "filter", "offline"],
     "image": footStats,
     "link": "https://github.com/kevinkotcherga/footstats"
   },
-    {
+  // {
+  //   "id": 8,
+  //   "name": "assisto",
+  //   "description": "projectAssisto",
+  //   "tags": ["scss", "javascript", "animation"],
+  //   "image": assisto,
+  //   "link": "http://www.assistopro.fr/"
+  // },
+  {
     "id": 8,
-    "name": "assisto",
-    "description": "projectAssisto",
-    "tags": ["scss", "javascript", "animation"],
-    "image": assisto,
-    "link": "http://www.assistopro.fr/"
+    "name": "atoukids",
+    "description": "projectAtoukids",
+    "tags": ["react", "react-router-dom", "search params", "online"],
+    "image": atoukids,
+    "link": "https://atoukids-fb711.web.app/"
   },
 ]

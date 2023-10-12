@@ -84,8 +84,11 @@
     background-size: cover;
     transform: rotate(-25deg);
 
-    &--assisto {
-      background-image: url("../../images/projects/assisto.jpg");
+    // &--assisto {
+    //   background-image: url("../../images/projects/assisto.jpg");
+    // }
+    &--atoukids {
+      background-image: url("../../images/projects/atoukids.jpg");
     }
 
     &--governement {
@@ -233,6 +236,20 @@
       background: rgb(173 94 255);
       font-weight: 600;
       text-transform: uppercase;
+    }
+
+    .online {
+      border: 1px solid #70eeba;
+      background: transparent;
+      color: #70eeba;
+      ;
+      // background:
+    }
+
+    .offline {
+      border: 1px solid #fff;
+      background: transparent;
+      color: #fff;
     }
   }
 }
