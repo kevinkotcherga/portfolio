@@ -84,9 +84,10 @@
     background-size: cover;
     transform: rotate(-25deg);
 
-    // &--assisto {
-    //   background-image: url("../../images/projects/assisto.jpg");
-    // }
+    &--assisto {
+      background-image: url("../../images/projects/assisto.jpg");
+    }
+
     &--atoukids {
       background-image: url("../../images/projects/atoukids.jpg");
     }

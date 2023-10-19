@@ -1,4 +1,4 @@
-// import assisto from '../../images/projects/company-logos/assisto.png';
+import assisto from '../../images/projects/company-logos/assisto.png';
 import atoukids from '../../images/projects/company-logos/atoukids.svg';
 import governement from '../../images/projects/company-logos/governement.png';
 import devinnet from '../../images/projects/company-logos/devinnet.png';
@@ -9,14 +9,14 @@ import epikeco from '../../images/projects/company-logos/epik-eco.svg';
 import footStats from '../../images/projects/company-logos/foot-stats.png';
 
 export const tiles = [
-    {
-      "id": 1,
-      "name": "floabank",
-      "description": "projectFloaBank",
-      "tags": ["joomla", "css", "html", "online"],
-      "image": floaBank,
-      "link": "https://www.floabank.fr/"
-    },
+    // {
+    //   "id": 1,
+    //   "name": "floabank",
+    //   "description": "projectFloaBank",
+    //   "tags": ["joomla", "css", "html", "online"],
+    //   "image": floaBank,
+    //   "link": "https://www.floabank.fr/"
+    // },
     {
     "id": 2,
     "name": "floapay",
@@ -34,6 +34,14 @@ export const tiles = [
     "link": "https://www.systeme-de-design.gouv.fr/"
   },
   {
+    "id": 5,
+    "name": "assisto",
+    "description": "projectAssisto",
+    "tags": ["scss", "javascript", "animation", "online"],
+    "image": assisto,
+    "link": "http://www.assistopro.fr/"
+  },
+  {
     "id": 4,
     "name": "devinnet",
     "description": "projectDevinnet",
@@ -42,12 +50,12 @@ export const tiles = [
     "link": "http://devinnet.fr/"
   },
   {
-    "id": 5,
-    "name": "shop",
-    "description": "projectShop",
-    "tags": ["react", "node.js", "mongodb", "stripe", "online"],
-    "image": shop,
-    "link": "https://ecommerce-react-node-kotcherga.herokuapp.com/"
+    "id": 8,
+    "name": "atoukids",
+    "description": "projectAtoukids",
+    "tags": ["react", "react-router-dom", "search params", "online"],
+    "image": atoukids,
+    "link": "https://atoukids-fb711.web.app/"
   },
   {
     "id": 6,
@@ -65,20 +73,12 @@ export const tiles = [
     "image": footStats,
     "link": "https://github.com/kevinkotcherga/footstats"
   },
-  // {
-  //   "id": 8,
-  //   "name": "assisto",
-  //   "description": "projectAssisto",
-  //   "tags": ["scss", "javascript", "animation"],
-  //   "image": assisto,
-  //   "link": "http://www.assistopro.fr/"
-  // },
   {
-    "id": 8,
-    "name": "atoukids",
-    "description": "projectAtoukids",
-    "tags": ["react", "react-router-dom", "search params", "online"],
-    "image": atoukids,
-    "link": "https://atoukids-fb711.web.app/"
+    "id": 5,
+    "name": "shop",
+    "description": "projectShop",
+    "tags": ["react", "node.js", "mongodb", "stripe", "online"],
+    "image": shop,
+    "link": "https://ecommerce-react-node-kotcherga.herokuapp.com/"
   },
 ]
