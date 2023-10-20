@@ -38,16 +38,6 @@
       filter: blur(3.5vw);
       background-color: #2D144A;
     }
-
-    // &--3 {
-    //   top: -18%;
-    //   right: -8%;
-    //   width: 20vw;
-    //   height: 10vw;
-    //   filter: blur(3.5vw);
-    //   background-color: #093777;
-
-    // }
   }
 
   &__container {
@@ -401,8 +391,8 @@
       }
 
       &-content {
-        width: 12vw;
-        height: 12vw;
+        width: 89px;
+        height: 89px;
         border-radius: 3vw;
 
         img {

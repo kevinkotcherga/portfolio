@@ -27,18 +27,35 @@
 
 @media (max-width: 992px) {
   .tilt {
-    width: 20vw;
-    height: 20vw;
-    border-radius: 3.5vw;
+    width: 160px;
+    height: 160px;
+    border-radius: 37px;
 
     p {
-      font-size: 2.2vw;
-      bottom: 0.8vw;
+      font-size: 16px;
+      bottom: 16px;
     }
 
     img {
-      max-height: 10vw;
-      margin-bottom: 0.5vw;
+      max-height: 70px;
+      height: auto;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .tilt {
+    width: 80px;
+    height: 80px;
+    border-radius: 16px;
+
+    p {
+      font-size: 7px;
+      bottom: 7px;
+    }
+
+    img {
+      max-height: 30px;
       height: auto;
     }
   }

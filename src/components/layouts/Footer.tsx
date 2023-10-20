@@ -140,7 +140,6 @@ const Footer = () => {
 							rel="noreferrer" className="footer__legend-link">
 							<img src={linkedin} />
 						</a></li>
-						{/* <p>© 2023 Kevin Kotcherga</p> */}
 					</ul>
 				</div>
 			</div>

@@ -292,7 +292,7 @@
     }
 
     &__title {
-      margin-top: 10vmax;
+      margin-top: 200px;
     }
 
     &__description {
@@ -356,6 +356,12 @@
     &__title {
       font-size: 37px;
       padding: 0 30px;
+    }
+
+    &__img {
+      height: 200px;
+      width: 200px;
+      bottom: -20%;
     }
   }
 }

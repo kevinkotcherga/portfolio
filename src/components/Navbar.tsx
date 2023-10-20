@@ -3,6 +3,8 @@ import { useEffect, useState } from 'react';
 import logo from '../images/navbar/logo.png';
 import { useTranslation } from 'react-i18next';
 import { gsapNavbar } from '../gsap/navbar';
+import github from '../images/footer/github.svg';
+import linkedin from '../images/footer/linkedin.svg';
 
 const Navbar = () => {
 	const [isActive, setIsActive] = useState(false);
@@ -76,8 +78,20 @@ const Navbar = () => {
 								{isEnglish ? 'Français' : 'English'}
 							</div>
 						</div>
+
 					</div>
+					<ul className="footer__legend-list">
+						<li><a href="https://github.com/kevinkotcherga" target="_blank"
+							rel="noreferrer" className="footer__legend-link">
+							<img src={github} />
+						</a></li>
+						<li><a href="https://www.linkedin.com/in/kevinkotcherga/" target="_blank"
+							rel="noreferrer" className="footer__legend-link">
+							<img src={linkedin} />
+						</a></li>
+					</ul>
 				</div>
+
 				<button
 					className={`burger ${isActive ? 'active' : ''}`}
 					onClick={activeBurger}
