@@ -78,7 +78,6 @@ const Navbar = () => {
 								{isEnglish ? 'Français' : 'English'}
 							</div>
 						</div>
-
 					</div>
 					<ul className="footer__legend-list">
 						<li><a href="https://github.com/kevinkotcherga" target="_blank"
@@ -91,7 +90,6 @@ const Navbar = () => {
 						</a></li>
 					</ul>
 				</div>
-
 				<button
 					className={`burger ${isActive ? 'active' : ''}`}
 					onClick={activeBurger}
