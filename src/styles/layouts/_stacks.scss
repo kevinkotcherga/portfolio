@@ -323,6 +323,10 @@
     height: 115vh !important;
     overflow: hidden;
 
+    &__gradient-header {
+      background-color: transparent;
+    }
+
     &__content {
       max-width: 768px;
     }
@@ -433,15 +437,6 @@
 @media (max-width: 768px) {
   .stacks {
     height: 100vh;
-
-    &__gradient-header {
-      background-color: transparent;
-    }
-
-    &__gradient-header--1 {
-      left: 5vw;
-      top: 0;
-    }
 
     &__title {
       padding-left: 28px;

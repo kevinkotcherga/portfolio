@@ -16,23 +16,22 @@
     border-radius: 50%;
 
     &--1 {
-      top: 15vw;
-      left: -8vw;
-      width: 15vw;
-      height: 10vw;
-      filter: blur(2vw);
+      top: 250px;
+      left: -100px;
+      width: 250px;
+      height: 250px;
+      filter: blur(40px);
       background-color: #26265782;
       ;
     }
 
     &--2 {
-      top: 0vw;
-      left: 8vw;
-      width: 14vw;
-      height: 14vw;
-      filter: blur(3vw);
+      top: 0;
+      left: 150px;
+      width: 270px;
+      height: 270px;
+      filter: blur(60px);
       background-color: #262657;
-
     }
   }
 
@@ -210,6 +209,28 @@
 
 @media (max-width: 992px) {
   .header {
+
+    &__gradient {
+
+      &--1 {
+        top: 250px;
+        left: -50px;
+        width: 200px;
+        height: 200px;
+        filter: blur(20px);
+        background-color: #26265782;
+      }
+
+      &--2 {
+        top: 0;
+        left: 100px;
+        width: 200px;
+        height: 200px;
+        filter: blur(30px);
+        background-color: #262657;
+      }
+    }
+
     &__headline {
       font-size: 67px;
     }
