@@ -6,6 +6,7 @@ import Redux from '../../images/stacks/front/redux.svg';
 import ReactJs from '../../images/stacks/front/react.svg';
 import GraphQl from '../../images/stacks/front/graphql.svg';
 import RestApi from '../../images/stacks/front/rest-api.svg';
+import Webflow from '../../images/stacks/front/webflow.svg';
 // back
 import Sql from '../../images/stacks/back/sql.svg';
 import NodeJs from '../../images/stacks/back/nodejs.svg';
@@ -24,7 +25,7 @@ export const frontEndLogos = [
       { name: 'Jest', class: 'jest', image: Jest },
       { name: 'Redux', class: 'redux', image: Redux },
       { name: 'Context', class: 'context', image: ReactJs },
-      { name: 'Rest Api', class: 'restapi', image: RestApi },
+      { name: 'Webflow', class: 'restapi', image: Webflow },
     ],
   },
   {

@@ -82,9 +82,9 @@ const Header = () => {
 				<div className="header__wrapper">
 					<div className="header__description">
 						<p>{t('descriptionBanner')}</p>
-						<BadgeHeader href={'https://www.docker.com/'} text={'Docker'} />
+						<BadgeHeader href={'https://react.dev/'} text={'React'} />
 						<p>,</p>
-						<BadgeHeader href={'https://jestjs.io/fr/'} text={'Jest'} />
+						<BadgeHeader href={'https://webflow.com/'} text={'Webflow'} />
 						<p>&</p>
 						<BadgeHeader
 							href={'https://www.typescriptlang.org/'}
