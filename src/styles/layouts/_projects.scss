@@ -54,6 +54,10 @@
     background-size: cover;
     transform: rotate(-25deg);
 
+    &--laTour {
+      background-image: url("../../images/projects/la-tour.jpg");
+    }
+
     &--assisto {
       background-image: url("../../images/projects/assisto.jpg");
     }
@@ -191,6 +195,7 @@
     line-height: 21px;
     margin-bottom: 16px;
     color: var(--color-white);
+    text-align: justify;
   }
 
   &__tags {

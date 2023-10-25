@@ -5,18 +5,19 @@ import devinnet from '../../images/projects/company-logos/devinnet.png';
 import floaBank from '../../images/projects/company-logos/floa-bank.png';
 import floaPay from '../../images/projects/company-logos/floapay.svg';
 import shop from '../../images/projects/company-logos/shop.png';
+import laTour from '../../images/projects/company-logos/la-tour.png';
 import epikeco from '../../images/projects/company-logos/epik-eco.svg';
 import footStats from '../../images/projects/company-logos/foot-stats.png';
 
 export const tiles = [
-    // {
-    //   "id": 1,
-    //   "name": "floabank",
-    //   "description": "projectFloaBank",
-    //   "tags": ["joomla", "css", "html", "online"],
-    //   "image": floaBank,
-    //   "link": "https://www.floabank.fr/"
-    // },
+    {
+      "id": 1,
+      "name": "floabank",
+      "description": "projectFloaBank",
+      "tags": ["joomla", "css", "html", "online"],
+      "image": floaBank,
+      "link": "https://www.floabank.fr/"
+    },
     {
     "id": 2,
     "name": "floapay",
@@ -50,6 +51,14 @@ export const tiles = [
     "link": "http://devinnet.fr/"
   },
   {
+    "id": 5,
+    "name": "laTour",
+    "description": "projectLaTour",
+    "tags": ["scss", "javascript", "animation", "online"],
+    "image": laTour,
+    "link": "https://www.la-tour.ch/fr"
+  },
+  {
     "id": 8,
     "name": "atoukids",
     "description": "projectAtoukids",
@@ -57,22 +66,22 @@ export const tiles = [
     "image": atoukids,
     "link": "https://atoukids-fb711.web.app/"
   },
-  {
-    "id": 6,
-    "name": "epikeco",
-    "description": "projectEpikEco",
-    "tags": ["react", "typescript", "graphql", "react native", "react context", "offline"],
-    "image": epikeco,
-    "link": "https://github.com/WildCodeSchool/2209-wns-hopper-keops-front"
-  },
-  {
-    "id": 7,
-    "name": "react-native",
-    "description": "projectFootStats",
-    "tags": ["react native", "navigation", "filter", "offline"],
-    "image": footStats,
-    "link": "https://github.com/kevinkotcherga/footstats"
-  },
+  // {
+  //   "id": 6,
+  //   "name": "epikeco",
+  //   "description": "projectEpikEco",
+  //   "tags": ["react", "typescript", "graphql", "react native", "react context", "offline"],
+  //   "image": epikeco,
+  //   "link": "https://github.com/WildCodeSchool/2209-wns-hopper-keops-front"
+  // },
+  // {
+  //   "id": 7,
+  //   "name": "react-native",
+  //   "description": "projectFootStats",
+  //   "tags": ["react native", "navigation", "filter", "offline"],
+  //   "image": footStats,
+  //   "link": "https://github.com/kevinkotcherga/footstats"
+  // },
   {
     "id": 5,
     "name": "shop",
