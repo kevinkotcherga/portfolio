@@ -108,6 +108,7 @@
   &__badge {
     font-size: 28px;
     position: relative;
+    top: -5px;
   }
 
   &__description {
@@ -237,6 +238,7 @@
 
     &__badge {
       font-size: 21px;
+      top: 0;
     }
 
     &__subhead {
