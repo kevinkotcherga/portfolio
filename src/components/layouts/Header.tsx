@@ -61,7 +61,7 @@ const Header = () => {
 			<div className="header__container">
 				<div className="header__wrapper">
 					<p className="header__headline" data-splitting>
-						React.js
+						Front-end
 					</p>
 					<div className="header__headline-gradient"></div>
 				</div>
