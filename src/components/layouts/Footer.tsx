@@ -102,8 +102,6 @@ const Footer = () => {
 							</div>
 							<div className="button" ref={tileRefs[1]}>
 								<a
-									href={process.env.PUBLIC_URL + '/downloads/cv-kotcherga-kevin.pdf'}
-									download
 									className="footer__button"
 								>
 									<p>{t('footerButton2')}</p>
