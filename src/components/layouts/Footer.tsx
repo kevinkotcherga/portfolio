@@ -14,12 +14,8 @@ const Footer = () => {
 	const cursorWrapRefs = [
 		React.useRef<HTMLDivElement>(null),
 		React.useRef<HTMLDivElement>(null),
-		React.useRef<HTMLDivElement>(null),
-		React.useRef<HTMLDivElement>(null),
 	];
 	const tileRefs = [
-		React.useRef<HTMLDivElement>(null),
-		React.useRef<HTMLDivElement>(null),
 		React.useRef<HTMLDivElement>(null),
 		React.useRef<HTMLDivElement>(null),
 	];

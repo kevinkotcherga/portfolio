@@ -16,7 +16,7 @@ const CardStacks = (props: ICardStacks) => {
 		<div className={`stacks__card stacks__card--${props.title.toLowerCase()}`}>
 			<div className="stacks__card-content">
 				<h3>
-					<span>{props.title}</span>
+					<span className={`stacks__card-title stacks__card-title--${props.title.toLowerCase()}`}>{props.title}</span>
 				</h3>
 			</div>
 			<div className="stacks__logos">
@@ -33,7 +33,7 @@ const CardStacks = (props: ICardStacks) => {
 								<>
 									<div className="stacks__skill">
 										<div className="stacks__skill-content">
-											{logo.class === 'restapi' ? <div className='stacks__hover-me'>{t('stacksHover')}</div> : ''}
+											{logo.class === 'firebase' ? <div className='stacks__hover-me'>{t('stacksHover')}</div> : ''}
 											<img src={logo.image} alt="" />
 											<p>{logo.name}</p>
 										</div>

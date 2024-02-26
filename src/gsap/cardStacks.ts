@@ -10,7 +10,6 @@ export const cardStacks = () => {
     '.stacks__hover-me',
     {
       opacity: 0,
-      // scale: 0.8
     },
     {
       opacity: 1,

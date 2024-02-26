@@ -1,5 +1,5 @@
 .stacks {
-  height: 130vh;
+  height: 100vh;
   background-color: transparent;
   position: relative;
   z-index: 1;
@@ -101,7 +101,7 @@
   &__wrapper {
     width: 100%;
     max-width: 1200px;
-    top: 400px;
+    top: 350px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -112,21 +112,41 @@
 
   &__card {
     position: absolute;
-    z-index: 2;
-
-    &--front-end {
-      top: 0;
-      left: 0;
-    }
 
     &--back-end {
-      top: 50px;
+      top: 0;
+      left: 0;
+      z-index: 1;
+    }
+
+    &--front-end {
+      top: 45px;
       left: 200px;
+      z-index: 2;
     }
 
     &--design {
-      top: 119px;
-      left: 100px;
+      top: 90px;
+      left: 400px;
+      z-index: 3;
+    }
+
+    &-title {
+      color: #000;
+      padding: 1rem 28px;
+      border-radius: 9999px;
+
+      &--back-end {
+        background: rgb(20 241 149);
+      }
+
+      &--front-end {
+        background: rgb(20 241 149);
+      }
+
+      &--design {
+        background: rgb(20 241 149);
+      }
     }
 
     &-content {
@@ -141,7 +161,6 @@
       overflow: hidden;
       background-color: #1B1622;
       border-bottom: 1px solid rgb(137 248 202);
-      ;
 
       h3 {
         z-index: 1;
@@ -153,13 +172,6 @@
         margin-bottom: 40px;
         text-transform: uppercase;
         font-weight: 600;
-
-        span {
-          background: rgb(20 241 149);
-          color: #000;
-          padding: 1rem 28px;
-          border-radius: 9999px;
-        }
       }
     }
   }
@@ -312,6 +324,26 @@
       max-width: 992px;
     }
 
+    &__card {
+      &--back-end {
+        top: 0;
+        left: 0;
+        z-index: 1;
+      }
+
+      &--front-end {
+        top: 45px;
+        left: 100px;
+        z-index: 2;
+      }
+
+      &--design {
+        top: 90px;
+        left: 200px;
+        z-index: 3;
+      }
+    }
+
     &__wrapper {
       max-width: 992px;
     }
@@ -425,11 +457,31 @@
       }
     }
 
-    &__card-content {
-      width: 55vw;
-      height: 80vw;
-      border-radius: 3.5vw;
-      padding: 6vw;
+    &__card {
+      &-content {
+        width: 55vw;
+        height: 80vw;
+        border-radius: 3.5vw;
+        padding: 6vw;
+      }
+
+      &--back-end {
+        top: 0;
+        left: 0;
+        z-index: 1;
+      }
+
+      &--front-end {
+        top: 45px;
+        left: 50px;
+        z-index: 2;
+      }
+
+      &--design {
+        top: 90px;
+        left: 100px;
+        z-index: 3;
+      }
     }
   }
 }
@@ -562,22 +614,21 @@
     }
 
     &__card {
-      position: absolute;
-      z-index: 2;
 
-      &--front-end {
+
+      &--back-end {
         top: 0;
         left: 0;
       }
 
-      &--back-end {
+      &--front-end {
         top: 50px;
-        left: 50px;
+        left: 25px;
       }
 
       &--design {
-        top: 119px;
-        left: 20px;
+        top: 100px;
+        left: 50px;
       }
 
       &-content {
