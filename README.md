@@ -15,5 +15,3 @@ To work locally, you should install the NPM dependencies by running:
 ```
 npm i
 ```
-
-test
